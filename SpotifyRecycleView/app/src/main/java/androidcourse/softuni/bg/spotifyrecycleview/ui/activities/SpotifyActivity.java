@@ -145,7 +145,13 @@ public class SpotifyActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        unbindService(musicPlayerConnection);
         stopService(musicPlayerIntent);
         musicService=null;
+    }
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
     }
 }
