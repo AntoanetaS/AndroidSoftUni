@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#311808</color>
+    <color name="colorPrimaryDark">#311808</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRecycleView">#311c08</color>
+    <color name="colorTitle">#8c7563</color>
+    <color name="colorDescription">#6b5142</color>
+    <color name="colorExplicit">#735d4a</color>
+    <color name="halfTransparentBlack">#80000000</color>
+</resources>
